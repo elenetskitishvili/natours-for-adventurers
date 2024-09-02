@@ -4,11 +4,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba($color-black, 0.8);
+  background-color: rgba($color-black, 0.3);
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 
   &__background {
     display: block;
