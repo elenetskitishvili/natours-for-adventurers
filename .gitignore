@@ -1,2 +1,19 @@
+# Node modules
 node_modules/
-css/
+
+# Ignore compiled CSS files but keep the final style.css
+css/*.comp.css
+css/*.concat.css
+css/*.prefix.css
+
+# SASS cache files
+.sass-cache/
+
+# Log files
+*.log
+
+# npm debug files
+npm-debug.log*
+
+# Build output
+dist/
