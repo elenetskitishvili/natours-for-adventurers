@@ -1,10 +1,11 @@
 # Node modules
 node_modules/
 
-# Ignore compiled CSS files but keep the final style.css
+# Ignore compiled CSS files, including the final style.css
 css/*.comp.css
 css/*.concat.css
 css/*.prefix.css
+css/style.css  
 
 # SASS cache files
 .sass-cache/
